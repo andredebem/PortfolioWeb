@@ -5,35 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio Web - André De Bem</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap">
+    <style>
+    h2 {
+    font-family: "Noto Sans HK", sans-serif;
+    font-weight: 400;}
+    
+    body {
+        background-color: #141d26;
+        font-family: "Libre Franklin", sans-serif;
+        line-height: 24px;
+        color: #fff;
+    }
+    .bold {font-weight: bold;}
+    .italic {font-style: italic;}
+    .line-height-list {line-height: 27px;}
+    .align-text-center {text-align: center;}
+
+    .align-button-center {display: block;
+        text-align: center;}
+        /* O código acima eu pesquisei e peguei do stackoverflow, com o objetivo de centralizar um link. */
+
+    .align-img-center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 175px;
+    }
+    /* O código acima eu consultei no portal W3schools para conseguir fazer. */
+    .border-radius {border-radius: 50%;}
+    .button {color: #c51f5d;
+    text-decoration: none;
+    font-weight: 600;}
+    </style>
 </head>
 <body>
-    <img id="foto" src="foto_andre.jpg" alt="Foto de André De Bem" width="150">
+    <img class="align-img-center border-radius" id="foto" src="foto_andre.jpg" alt="Foto de André De Bem">
 
     <ul>
-        <li><a href="#descricao">Breve descrição</a></li>
-        <li> <a href="#habilidades">Habilidades e línguas</a></li>
-        <li> <a href="#links">Links úteis</a></li>
+        <li><a class="button" href="#descricao">Breve descrição</a></li>
+        <li> <a class="button" href="#habilidades">Habilidades e línguas</a></li>
+        <li> <a class="button" href="#links">Links úteis</a></li>
     </ul>
 
-    <h2>Nome Completo: André De Bem Ferraz</h2>
-    <p id="descricao"><em>Olá! Meu nome é André, e tenho, no momento, 20 anos. Sou <strong> brasileiro </strong>, nascido em Araranguá, no estado de Santa Catarina, mas atualmente resido em <strong> Joinville, também no estado de Santa Catarina.</strong> </em></p>
-    <ul id="habilidades">
-        <li><strong>Linux e Sistemas Unix</li>
-        <li>Git e Github</li>
-        <li>HTML </strong></li>
-        <li>Conhecimento intermediário-avançado em Google Ads</li>
-        <li> Experiência com ambientes de startups</li> <br>
+    <h2 class="align-text-center">Nome Completo: André De Bem Ferraz</h2>
+
+    <p id="descricao" class="italic">"Olá! Meu nome é André, e tenho, no momento, 20 anos. Sou <strong> brasileiro </strong>, nascido em Araranguá, no estado de Santa Catarina, mas atualmente resido em <strong> Joinville, também no estado de Santa Catarina."</strong></p>
+
+    <ul id="habilidades" class="line-height-list">
+        <li class="bold">Linux e Sistemas Unix;</li>
+        <li class="bold">Git e Github;</li>
+        <li class="bold">HTML;</strong></li>
+        <li class="bold">CSS;</li>
+        <li>Conhecimento intermediário-avançado em Google Ads;</li>
+        <li> Experiência com ambientes de startups;</li> <br>
         <li>Português Fluente/Nativo</li>
         <li>Inglês intermediário</li>
         <li>Espanhol básico-intermediário</li>
     </ul>
     <br>
-    <a id="links" target="_blank" href="https://www.vernacula.org/blog/"> <em>Blog da Vernácula para reforçar o estudo do Inglês pelo Metódo Natural</em></a>
+    <a class="italic button" id="links" target="_blank" href="https://www.vernacula.org/blog/">Blog da Vernácula para reforçar o estudo do Inglês pelo Metódo Natural</a>
 <br>
 <br>
-<a href="https://andredebem.github.io/"><em>Meu PortfólioWeb</em></a>
+<a class="button italic" href="https://andredebem.github.io/">Meu PortfólioWeb</a>
 <br>
 <br>
-    <a href="#foto"><em>Voltar até a foto</em></a>
+    <a class="italic button align-button-center" href="#foto">Voltar ao topo</a>
 </body>
 </html>
