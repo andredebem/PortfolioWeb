@@ -4,52 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Meu Portfólio Web - André De Bem</title>
+
+    <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap">
-    <style>
-    h2 {
-    font-family: "Noto Sans HK", sans-serif;
-    font-weight: 400;}
-    
-    body {
-        background-color: #141d26;
-        font-family: "Libre Franklin", sans-serif;
-        line-height: 24px;
-        color: #eaeaea;
-    }
-    .bold {font-weight: bold;}
-    .italic {font-style: italic;}
-    .line-height-list {line-height: 27px;}
-    .align-text-center {text-align: center;}
 
-    .align-button-center {display: block;
-        text-align: center;}
-        /* O código acima eu pesquisei e peguei do stackoverflow, com o objetivo de centralizar um link. */
-
-    .align-img-center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 190px;
-    }
-    /* O código acima eu consultei no portal W3schools para conseguir fazer. */
-    .border-radius {border-radius: 50%;}
-    .border-radius-icon {border-radius: 50%}
-
-    .button {color: #FFC11E;
-    text-decoration: none;
-    font-weight: 600;}
-    </style>
-</head>
+    </head>
 <body>
-    <img class="align-img-center border-radius-icon" id="foto" src="foto_perfil.png" alt="Foto de André De Bem">
+    <img class="align-img-center border-radius" id="foto" src="foto_perfil2.png" alt="Foto de André De Bem">
 
-    <ul>
-        <li><a class="button" href="#descricao">Breve descrição</a></li>
-        <li> <a class="button" href="#habilidades">Habilidades e línguas</a></li>
-        <li> <a class="button" href="#links">Links úteis</a></li>
-    </ul>
+    <div class="frame">
+        <img class="icon" src="linux.png" alt="Ícone do Linux">
+        <img class="icon" src="github.png" alt="Ícone do Github">
+        <img class="icon" src="html-5.png" alt="Ícone do html-5">
+        <img class="icon" src="css-3.png" alt="Ícone do CSS">
+    </div>
+
+    <div class="links">
+        <ul>
+            <li><a class="button" href="#descricao">Breve descrição</a></li>
+            <li> <a class="button" href="#habilidades">Habilidades e línguas</a></li>
+            <li> <a class="button" href="#links">Links úteis</a></li>
+        </ul>
+    </div>
 
     <h2 class="align-text-center">Nome Completo: André De Bem Ferraz</h2>
 

@@ -1,0 +1,54 @@
+h2 {
+    font-family: "Noto Sans HK", sans-serif;
+    font-weight: 400;}
+    
+    body {
+        background-color: #141d26;
+        font-family: "Libre Franklin", sans-serif;
+        line-height: 24px;
+        color: #eaeaea;
+        margin: 0px;
+    }
+    .bold {font-weight: bold;}
+    .italic {font-style: italic;}
+    .line-height-list {line-height: 27px;}
+    .align-text-center {text-align: center;}
+
+    .align-button-center {display: block;
+        text-align: center;}
+        /* O código acima eu pesquisei e peguei do stackoverflow, com o objetivo de centralizar um link. */
+
+    .align-img-center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 190px;
+    }
+    /* O código acima eu consultei no portal W3schools para conseguir fazer. */
+    .border-radius {
+        border-radius: 50%;
+    }
+
+    .button {color: #FFC11E;
+    text-decoration: none;
+    font-weight: 600;}
+
+    .icon {
+        max-height: 40px;
+        max-width: 40px;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .frame {
+        text-align: center;
+    }
+
+    .links {
+        background-color: #1d2a37;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
